@@ -1,5 +1,9 @@
 streamlit
-   Pillow
-   google-generativeai
-   python-dotenv
-   pdfplumber
+Pillow
+google-generativeai
+python-dotenv
+pdfplumber
+requests
+bs4
+re
+pandas

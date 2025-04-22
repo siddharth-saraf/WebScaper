@@ -1,9 +1,7 @@
 import re
-import argparse
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
-import os
 
 def extract_courses(html_content):
     """Extract course information from HTML content using the actual UW CSE HTML structure"""
