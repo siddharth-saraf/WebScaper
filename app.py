@@ -22,7 +22,7 @@ def process_with_gemini(text, user_prompt):
     return response.text
 
 def main():
-    st.title("OCR and Gemini Text Analysis App")
+    st.title("Upload a CSV File and Ask Questions")
 
     # File uploader
     uploaded_file = st.file_uploader("Choose a csv file", type=["csv"])
